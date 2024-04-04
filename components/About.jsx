@@ -24,7 +24,7 @@ const About = () => {
               About Me
             </div>
             <a className='text-5xl mt-12 font-medium mb-4'>
-              Hi, I'm Tang
+              {`Hi, I'm Tang`}
             </a>
             <div className='line-title mx-auto'></div>
             <a className='mt-3'>
@@ -36,7 +36,7 @@ const About = () => {
                 <p className="mb-5 head_text text-left">Who i am ?</p>
                 <p className="mb-5 body_text text-left">I am a computer science graduate with a focus on data and machine learning, as well as a strong enjoyment of web development and game development. </p>
                 <p className="mb-5 body_text text-left">My professional ambition is to excel as a proficient full-stack developer. Check out some of my work in the Projects section.</p>
-                <p className="mb-3 body_text text-left">I am currently open to job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, please don't hesitate to contact me.</p>
+                <p className="mb-3 body_text text-left">I am currently open to job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, please do not hesitate to contact me.</p>
                 <button className="outline_btn body_text">
                   <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                   <span>Curriculum Vitae</span>
