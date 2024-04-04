@@ -33,7 +33,7 @@ const About = () => {
 
             <div className='mt-32 flex'>
               <div className='flex-1 px-5 mr-5'>
-                <p className="mb-5 head_text text-left">Who i am ?</p>
+                <p className="mb-5 head_text text-left">Who i am?</p>
                 <p className="mb-5 body_text text-left">I am a computer science graduate with a focus on data and machine learning, as well as a strong enjoyment of web development and game development. </p>
                 <p className="mb-5 body_text text-left">My professional ambition is to excel as a proficient full-stack developer. Check out some of my work in the Projects section.</p>
                 <p className="mb-3 body_text text-left">I am currently open to job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, please do not hesitate to contact me.</p>
