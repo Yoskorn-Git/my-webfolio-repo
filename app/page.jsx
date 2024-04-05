@@ -11,7 +11,6 @@ import Contact from '@components/Contact'
 import ScrollSpy from "react-ui-scrollspy";
 import NavbarVertical from '@components/NavbarVertical'
 import AnimatedCursor from "react-animated-cursor";
-import Projecttwo from '@components/Projecttwo';
 
 const home = () => {
 
@@ -20,8 +19,8 @@ const home = () => {
     <>
       <div className="cursor__dot">
         <AnimatedCursor
-          innerSize={15}
-          outerSize={15}
+          innerSize={10}
+          outerSize={20}
           outerAlpha={0.4}
           innerScale={0.7}
           outerScale={5}
@@ -37,7 +36,6 @@ const home = () => {
           <About />
         </section>
         <section id="projects">
-          {/* <Projecttwo></Projecttwo> */}
           <Project></Project>
         </section>
         <section id="contact">

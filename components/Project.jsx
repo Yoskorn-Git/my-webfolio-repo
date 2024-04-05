@@ -36,6 +36,9 @@ const Project = () => {
                         <div className="">
                             <Card
                                 title="Thai Food Recommendation Application"
+                                subtitle="Mobile Application, API, Computer Vision, UX/UI"
+                                body="Developed mobile application using React Native to help traveler choose thier menu"
+                                badges={["JavaScript", "React Native", "Firebase", "Reccomendation System"]}
                                 previewimg={foodrec_preview}
                                 size="card-single"
                             />
@@ -43,6 +46,9 @@ const Project = () => {
                         <div className="">
                             <Card
                                 title="ThaiEggHead Social Platform"
+                                subtitle="Web Development, MERN Stack, UX/UI"
+                                body="Developed a Social web application using MERN Stack"
+                                badges={["JavaScript", "ReactJS", "MERN Stack"]}
                                 previewimg={egghead_preview}
                                 size="card-single"
                             />
@@ -52,6 +58,7 @@ const Project = () => {
                             <Card
                                 title="A Hybrid Framework Stock Prediction"
                                 subtitle="Machine Learning, Deep Neuron Network, Computer Vision, Web Development"
+                                body="Proposed a hybrid prediction framework to forecast stock market closing prices."
                                 badges={["Python", "NLP", "Time Serie Prediction", "Hybrid Model"]}
                                 previewimg={hymodel_preview}
                                 size="card-double"
@@ -60,13 +67,19 @@ const Project = () => {
                         <div className="">
                             <Card
                                 title="English War Game"
+                                subtitle="Game Development, UX,UI"
+                                body="Developed a multiplayer english learning game"
+                                badges={["C++", "Unity"]}
                                 previewimg={englishwar_preview}
                                 size="card-single"
                             />
                         </div>
                         <div className="">
                             <Card
-                                title="BlackJack Card Game"
+                                title="BlackJack Card Game on Terminal"
+                                subtitle="Game Development"
+                                body="Developed a BlackJack Card Game that play on System Terminal"
+                                badges={["C"]}
                                 previewimg={bj_preview}
                                 size="card-single"
                             />

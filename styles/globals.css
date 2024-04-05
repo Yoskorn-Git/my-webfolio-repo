@@ -61,18 +61,18 @@
       hsla(215, 98%, 61%, 1) 0px,
       transparent 0%),
     radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgba(253, 120, 58, 0.945) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(252, 228, 90) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
-  height: 100%;
+  height: 100vh;
   filter: blur(100px) saturate(150%);
   top: 80px;
-  opacity: 0.07;
+  opacity: 0.1;
 }
 
 .about-bg {
@@ -160,7 +160,7 @@
 }
 
 .outline_btn {
-  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:border-orange-950 hover:bg-orange-700 hover:text-white text-center text-sm font-inter flex items-center justify-center;
 }
 
 .head_text {
@@ -289,24 +289,26 @@
 .active-scroll-spy {
   border-radius: 15px;
   width: 30px; /* Line width */
-  background-color: darkblue; /* Line color */
+  background-color: #ea580c; /* Line color */
   transition: width 500ms ease; /* Add transition effect */
 }
 
 .cursor__dot div {
-  z-index: 999999 !important;
+  z-index: 100 !important;
 }
 
 .cursor__dot div:last-child {
   filter: invert(0);
+  size:8px;
   /* background-color: var(--primary-color) !important; */
-  background-color: darkblue !important;
+  
+  background-color: #ea580c !important;
 
 }
 
 .cursor__dot div:first-child {
-  filter: invert(1);
-  background-color: darkblue !important;
+  /* filter: invert(1); */
+  background-color: #ea5a0c57 !important;
 }
 
 .text-container {
@@ -372,7 +374,7 @@
   border-radius: 0.5rem;
   background-size: cover;
   position: relative;
-  height: 32vw;
+  height: 35vw;
   /* max-height: 40vh; */
   /* max-width: 100vh; */
   transition: transform 300ms ease;

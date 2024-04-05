@@ -49,7 +49,7 @@ const Hero = () => {
                             Enthusiastic
                         </div>
                         <div className={`xl:text-9xl sm:text-8xl ${visible ? 'visible' : ''}`}>
-                            Developer<a className='text-blue-900'>.</a>
+                            Developer<a className='text-orange-600'>.</a>
                         </div>
                     </div>
                 </h1>
