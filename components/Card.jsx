@@ -17,10 +17,13 @@ const Card = (props) => {
 
     return (
         <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} glareEnable={false}>
-            <div className={props.size}>
+            <div className={`${props.size} fill`}>
                 <Image
                     src={props.previewimg}
                     className='object-fill'
+                    alt="Preview Image"
+                    // width="100%" 
+                    // height="100%"
                 />
                 <div className='card-content'>
                     <div className="">

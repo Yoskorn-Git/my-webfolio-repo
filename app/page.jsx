@@ -11,6 +11,7 @@ import Contact from '@components/Contact'
 import ScrollSpy from "react-ui-scrollspy";
 import NavbarVertical from '@components/NavbarVertical'
 import AnimatedCursor from "react-animated-cursor";
+import Projecttwo from '@components/Projecttwo';
 
 const home = () => {
 
@@ -36,6 +37,7 @@ const home = () => {
           <About />
         </section>
         <section id="projects">
+          {/* <Projecttwo></Projecttwo> */}
           <Project></Project>
         </section>
         <section id="contact">

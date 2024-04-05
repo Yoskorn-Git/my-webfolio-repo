@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card'
-// import Silkworm from '@public/assets/images/silkworm2.png'
 import { silkworm_preview, hymodel_preview, covid_preview, foodrec_preview, englishwar_preview, egghead_preview, bj_preview } from '@public/assets/images';
 
 const Project = () => {
@@ -13,10 +12,13 @@ const Project = () => {
                             <div className='text-slate-500 text-base font-medium'>
                                 Recent Project
                             </div>
-                            <a className='text-6xl mt-10 font-medium'>
-                                Lets take a look at the <br />
-                                recent projects I’ve done.
+                            <a className='text-5xl mt-10 font-medium'>
+                                Lets take a look at the
                             </a>
+                            <a className='text-5xl mt-5 font-medium'>
+                                projects I’ve done.
+                            </a>
+
                         </div>
                     </h1>
 
@@ -55,14 +57,6 @@ const Project = () => {
                                 size="card-double"
                             />
                         </div>
-                        <div className="">
-                            <Card
-                                title="Zoning the severity level of the COVID-19 outbreak"
-                                previewimg={covid_preview}
-                                size="card-single"
-                            />
-                        </div>
-
                         <div className="">
                             <Card
                                 title="English War Game"

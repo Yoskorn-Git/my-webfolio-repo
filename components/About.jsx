@@ -23,17 +23,17 @@ const About = () => {
             <div className='text-slate-500 text-base font-medium'>
               About Me
             </div>
-            <a className='text-5xl mt-12 font-medium mb-4'>
-              {`Hi, I'm Tang`}
+            <a className='text-5xl mt-6 font-medium mb-4'>
+              {`Hi, I'm Tang Yoskorn`}
             </a>
-            <div className='line-title mx-auto'></div>
+            {/* <div className='line-title mx-auto'></div>
             <a className='mt-3'>
-              “Ambitious | Skilled | Attentive | Dedicated Gamer”
-            </a>
+              “Ambitious, Skilled, Attentive, and Dedicated Gamer”
+            </a> */}
 
             <div className='mt-32 flex'>
               <div className='flex-1 px-5 mr-5'>
-                <p className="mb-5 head_text text-left">Who i am?</p>
+                <p className="mb-5 head_text text-left">Hi, I am Tang Yoskorn</p>
                 <p className="mb-5 body_text text-left">I am a computer science graduate with a focus on data and machine learning, as well as a strong enjoyment of web development and game development. </p>
                 <p className="mb-5 body_text text-left">My professional ambition is to excel as a proficient full-stack developer. Check out some of my work in the Projects section.</p>
                 <p className="mb-3 body_text text-left">I am currently open to job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, please do not hesitate to contact me.</p>
@@ -43,7 +43,8 @@ const About = () => {
                 </button>
               </div>
               <div className='flex-1 text-left px-5 ml-5 body_text'>
-                <h2 className="head_text">My Skill</h2>
+                <h2 className="head_text">Capabilities</h2>
+                <h2 className="sub_head_text mb-4">Skill & Tools</h2>
                 <h3 className="sub_head_text mb-2">Software Development</h3>
                 {arrayDevItems}
                 <h3 className="sub_head_text mb-2 mt-5">Data / Machine Learning</h3>

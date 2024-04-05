@@ -9,7 +9,7 @@ const NavbarVertical = () => {
 
     return (
         <>
-            <div className='left-middle'>
+            <div className='left-middle z-10'>
                 <p data-to-scrollspy-id="hero" className='dot' onClick={() => handleScrollToSection('hero')}></p>
                 <p data-to-scrollspy-id="about" className='dot' onClick={() => handleScrollToSection('about')}></p>
                 <p data-to-scrollspy-id="projects" className='dot' onClick={() => handleScrollToSection('projects')}></p>
