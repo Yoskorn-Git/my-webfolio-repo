@@ -162,17 +162,22 @@ const Navbar = () => {
                         onClick={() => setToggleDropdown(!toggleDropdown)}
                     />
                     <p className='text-2xl hidden md:block font-bold cursor-pointer'>Y. Lertratanakham</p>
-                    
+
                 </Link>
             </div>
 
             <div className='hidden sm:flex items-center'>
                 <div className='flex body_text md:gap-5 xl:gap-12 items-center'>
-                    <button onClick={() => handleScrollToSection('hero')} className='hover:text-orange-600' >Home</button>
-                    <button onClick={() => handleScrollToSection('about')} className='hover:text-orange-600'>About Me</button>
-                    <button onClick={() => handleScrollToSection('projects')} className='hover:text-orange-600'>Project</button>
-                    <button onClick={() => handleScrollToSection('contact')} className='hover:text-orange-600'>Contact</button>
-                    <Link href='#'>
+                    <Link href='/#'>
+                        <button className='hover:text-orange-600' >Home</button>
+                    </Link>
+                    <Link href='/#projects'>
+                        <button className='hover:text-orange-600'>Project</button>
+                    </Link>
+                    <Link href='/#contact'>
+                        <button className='hover:text-orange-600'>Contact</button>
+                    </Link>
+                    <Link href='/CV'>
                         <button className="outline_btn body_text">
                             <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                             <span>Curriculum Vitae</span>
@@ -195,7 +200,7 @@ const Navbar = () => {
                                     <button onClick={() => handleScrollToSection('about')}>About Me</button>
                                     <button onClick={() => handleScrollToSection('projects')}>Project</button>
                                     <button onClick={() => handleScrollToSection('contact')}>Contact</button>
-                                    <Link href='#'>
+                                    <Link href='/CV'>
                                         <button className="body_text flex justify-center items-center">
                                             <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                                             <span>Curriculum Vitae</span>

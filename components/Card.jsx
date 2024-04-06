@@ -14,10 +14,10 @@ const Card = (props) => {
         inline-flex items-center rounded-md bg-gray-50 px-2 py-1 mr-2 text-base font-light text-gray-600 ring-1 ring-inset ring-gray-500/10" key={badges}>
             {badge}
         </span>);
-
+//md:${props.size}
     return (
         <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} glareEnable={false}>
-            <div className={`${props.size} fill`}>
+            <div className={`h-[50vw] ${props.size} card-single fill`}> 
                 <Image
                     src={props.previewimg}
                     className='object-fill'
