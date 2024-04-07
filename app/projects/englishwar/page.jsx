@@ -2,8 +2,6 @@
 
 // Core viewer
 import { Viewer } from '@react-pdf-viewer/core';
-import Link from 'next/link';
-
 
 // Plugins
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
@@ -48,7 +46,7 @@ const About = () => {
               </div>
               <div className='pdf_container mt-11'>
                     <Viewer
-                        fileUrl='/assets/poster_englishwar.pdf'
+                        fileUrl='/assets/Poster_EnglishWar.pdf'
                         plugins={[
                             // Register plugins
                             defaultLayoutPluginInstance,
