@@ -17,7 +17,7 @@ const PDFViewer = () => {
     return (
         <>
             <title>Yoskorn | CV</title>
-            <section className={`CV_section`}>
+            <section className={`container_section`}>
                 <div className='pdf_container'>
                     <Viewer
                         fileUrl='/assets/CV_2024.pdf'

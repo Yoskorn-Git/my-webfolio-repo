@@ -87,8 +87,9 @@ html {
   background-color: white
 }
 
-.CV_section{
-  padding-top: 50px;
+.container_section{
+  /* padding-top: 50px; */
+  min-height: 80vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -136,6 +137,7 @@ html {
   width: 100vw;
   background-color: #f5f5f4;
 }
+
 
 @media screen and (max-width: 640px) {
   .main {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const About = () => {
 
@@ -37,10 +38,12 @@ const About = () => {
                 <p className="mb-5 body_text text-left">I am a computer science graduate with a focus on data and machine learning, as well as a strong enjoyment of web development and game development. </p>
                 <p className="mb-5 body_text text-left">My professional ambition is to excel as a proficient full-stack developer. Check out some of my work in the Projects section.</p>
                 <p className="mb-3 body_text text-left">I am currently open to job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, please do not hesitate to contact me.</p>
-                <button className="outline_btn body_text">
-                  <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                  <span>Curriculum Vitae</span>
-                </button>
+                <Link href='/CV'>
+                        <button className="outline_btn body_text">
+                            <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                            <span>Curriculum Vitae</span>
+                        </button>
+                    </Link>
               </div>
               <div className='flex-1 text-left px-5 body_text mt-14 md:mt-0'>
                 <h2 className="head_text">Capabilities</h2>

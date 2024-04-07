@@ -24,6 +24,7 @@
     "react-creative-cursor": "^1.2.7",
     "react-dom": "^18",
     "react-parallax-tilt": "^1.7.219",
+    "react-slideshow-image": "^4.3.1",
     "react-ui-scrollspy": "^2.3.0",
     "tilt.js": "^1.2.1"
   },

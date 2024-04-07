@@ -1,11 +1,11 @@
 [
   {
-    "title": "Silkworm Infections Classification System",
+    "title": "SilkSight: Silkworm Infection Detection System",
     "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
     "body": "Developed a system using computer vision and Deep Neural Networks to classify infected silkworms, along with a user-friendly web interface",
     "badges": ["Python", "YOLOv5", "Flask", "Streamlit", "Deep Neural Network"],
     "thumbnail": "/assets/images/thumbnail_silkworm.png",
-    "link": "/projects/model"
+    "link": "/projects/silkworm"
   },
   {
     "title": "Thai Food Recommendation Application",
@@ -13,7 +13,7 @@
     "body": "Developed mobile application using React Native to help travelers choose their menu",
     "badges": ["JavaScript", "React Native", "Firebase", "Recommendation System"],
     "thumbnail": "/assets/images/thumbnail_thaifoodrec.png",
-    "link": "/projects/model"
+    "link": "/projects/foodrec"
   },
   {
     "title": "ThaiEggHead Social Platform",
@@ -21,7 +21,7 @@
     "body": "Developed a Social web application using MERN Stack",
     "badges": ["JavaScript", "ReactJS", "MERN Stack"],
     "thumbnail": "/assets/images/thumbnail_egghead.png",
-    "link": "/projects/model"
+    "link": "/projects/egghead"
   },
   {
     "title": "A Hybrid Framework Stock Prediction",
@@ -37,7 +37,7 @@
     "body": "Developed a multiplayer English learning game",
     "badges": ["C++", "Unity"],
     "thumbnail": "/assets/images/thumbnail_englishwar.png",
-    "link": "/projects/model"
+    "link": "/projects/englishwar"
   },
   {
     "title": "BlackJack Card Game on Terminal",
@@ -45,6 +45,6 @@
     "body": "Developed a BlackJack Card Game that plays on System Terminal",
     "badges": ["C","My First Project"],
     "thumbnail": "/assets/images/thumbnail_blackjack.png",
-    "link": "/projects/model"
+    "link": "/projects/blackjack"
   }
 ]
