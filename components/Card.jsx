@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import preview from '@public/assets/images/placeholder.jpg'
 import Image from 'next/image'
 import Tilt from 'react-parallax-tilt';
 
@@ -17,23 +16,22 @@ const Card = (props) => {
 //md:${props.size}
     return (
         <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} glareEnable={false}>
-            <div className={`h-[50vw] ${props.size} card-single fill`}> 
+            <div className={`card-project ${props.IsBigCard ? "md:h-[40em]" : "md:h-[22em]"}`}> 
                 <Image
-                    src={props.previewimg}
-                    className='object-fill'
+                    src={props.thumbnail}
+                    className='fill-img'
                     alt="Preview Image"
-                    // width="100%" 
-                    // height="100%"
+                    fill
                 />
                 <div className='card-content'>
                     <div className="">
-                        <div className="head_text mb-9">
+                        <div className="head_text py-3">
                             {props.title}
                             <p className='sub_text'>
                                 {props.subtitle}
                             </p>
                         </div>
-                        <p className="body_text">
+                        <p className="card_body_text ">
                             {props.body}
                         </p>
                     </div>

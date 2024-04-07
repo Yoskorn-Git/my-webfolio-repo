@@ -1,9 +1,10 @@
 import React from 'react';
+import { Typography } from "@material-tailwind/react";
 
 const Contact = () => {
   return (
-    <section className="contact_section bg-gray-100 p-8">
-      <div className='flex flex-col md:flex-row md:items-center justify-center'>
+    <section className="contact_section bg-gray-100 p-8 flex-row">
+      <div className='flex md:flex-row md:items-center justify-center'>
         <div className='text-gray-400 text-3xl header_text mb-4 md:mb-0 md:mr-4 md:text-center'>
           Need Something? Feel free to contact me.
         </div>
@@ -13,6 +14,18 @@ const Contact = () => {
             Contact Me
           </span>
         </button>
+      </div>
+
+      <div class="flex justify-center space-x-5 mt-5">
+        <a href="https://discordapp.com/users/240822066272534528" target="_blank" rel="noopener noreferrer">
+          <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/CDCDCD/discord-logo.png" alt="discord-logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/yoskorn/" target="_blank" rel="noopener noreferrer">
+          <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/CDCDCD/linkedin.png" alt="linkedin" />
+        </a>
+        <a href="https://github.com/Yoskorn-Git" target="_blank" rel="noopener noreferrer">
+          <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/CDCDCD/github.png" alt="github" />
+        </a>
       </div>
     </section>
   );

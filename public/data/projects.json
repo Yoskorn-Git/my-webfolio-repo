@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Silkworm Infections Classification System",
+    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
+    "body": "Developed a system using computer vision and Deep Neural Networks to classify infected silkworms, along with a user-friendly web interface",
+    "badges": ["Python", "YOLOv5", "Flask", "Streamlit", "Deep Neural Network"],
+    "thumbnail": "/assets/images/thumbnail_silkworm.png",
+    "link": "/projects/model"
+  },
+  {
+    "title": "Thai Food Recommendation Application",
+    "subtitle": "Mobile Application, API, Computer Vision, UX/UI",
+    "body": "Developed mobile application using React Native to help travelers choose their menu",
+    "badges": ["JavaScript", "React Native", "Firebase", "Recommendation System"],
+    "thumbnail": "/assets/images/thumbnail_thaifoodrec.png",
+    "link": "/projects/model"
+  },
+  {
+    "title": "ThaiEggHead Social Platform",
+    "subtitle": "Web Development, MERN Stack, UX/UI",
+    "body": "Developed a Social web application using MERN Stack",
+    "badges": ["JavaScript", "ReactJS", "MERN Stack"],
+    "thumbnail": "/assets/images/thumbnail_egghead.png",
+    "link": "/projects/model"
+  },
+  {
+    "title": "A Hybrid Framework Stock Prediction",
+    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
+    "body": "Proposed a hybrid prediction framework to forecast stock market closing prices.",
+    "badges": ["Python", "NLP", "Time Series Prediction", "Hybrid Model"],
+    "thumbnail": "/assets/images/thumbnail_hybridmodel.png",
+    "link": "/projects/model"
+  },
+  {
+    "title": "English War Game",
+    "subtitle": "Game Development, UX/UI",
+    "body": "Developed a multiplayer English learning game",
+    "badges": ["C++", "Unity"],
+    "thumbnail": "/assets/images/thumbnail_englishwar.png",
+    "link": "/projects/model"
+  },
+  {
+    "title": "BlackJack Card Game on Terminal",
+    "subtitle": "Game Development",
+    "body": "Developed a BlackJack Card Game that plays on System Terminal",
+    "badges": ["C","My First Project"],
+    "thumbnail": "/assets/images/thumbnail_blackjack.png",
+    "link": "/projects/model"
+  }
+]

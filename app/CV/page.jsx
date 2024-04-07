@@ -16,17 +16,18 @@ const PDFViewer = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
     return (
         <>
+            <title>Yoskorn | CV</title>
             <section className={`CV_section`}>
                 <div className='pdf_container'>
                     <Viewer
-                    fileUrl='/assets/CV_2024.pdf'
-                    plugins={[
-                        // Register plugins
-                        defaultLayoutPluginInstance,
-                    ]}
-                />
+                        fileUrl='/assets/CV_2024.pdf'
+                        plugins={[
+                            // Register plugins
+                            defaultLayoutPluginInstance,
+                        ]}
+                    />
                 </div>
-                
+
             </section>
         </>
     )

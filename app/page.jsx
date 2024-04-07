@@ -16,10 +16,11 @@ const home = () => {
 
   return (
     <>
+    <title>Yoskorn | Software Developer</title>
       <NavbarVertical />
       
       <ScrollSpy>
-        <section id="hero" className='w-full flex justify-center items-center flex-col'>
+        <section id="home" className='w-full flex justify-center items-center flex-col'>
           <Hero></Hero>
         </section>
         <section id="about">
