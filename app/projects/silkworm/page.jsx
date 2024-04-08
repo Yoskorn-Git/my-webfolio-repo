@@ -50,13 +50,7 @@ const About = () => {
               <div className='flex-1 text-left px-5 body_text mt-14 md:mt-0 drop-shadow-xl'>
                 {/* <h2 className="head_text font-bold mb-3">Video Demo</h2> */}
                 <video className="w-full" controls preload="none" autoPlay loop muted>
-                  <source src="/demo.mp4" type="video/mp4" />
-                  <track
-                    src="/path/to/captions.vtt"
-                    kind="subtitles"
-                    srcLang="en"
-                    label="English"
-                  />
+                  <source src="/demo-silkworm.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className='relative w-full  '>

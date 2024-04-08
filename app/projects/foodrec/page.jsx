@@ -39,7 +39,6 @@ const About = () => {
 
                 </div>
                 <Link href="https://github.com/Yoskorn-Git/ArhanThai-Food-Recommender">
-
                   <button className="outline_btn body_text">
                     <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/696969/cursor.png" alt="cursor" />
                     <span className='px-1'>Source Code</span>
@@ -48,6 +47,10 @@ const About = () => {
 
               </div>
               <div className='flex-1 text-left px-5 body_text md:mt-0 drop-shadow-xl'>
+              <video className="w-full h-[100vh] mb-4" controls preload="none" autoPlay loop muted>
+                  <source src="/demo-foodrec.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <div className="grid gap-4">
                     <div>
