@@ -15,7 +15,7 @@ const About = () => {
         <h1 className='head_text'>
           <div className='text-center flex flex-col content-center justify-center '>
             <div className='flex flex-col md:flex-row '>
-              <div className='flex-1 px-5 mr-5 mt-36 '>
+              <div className='flex-1 px-5 mr-5 sticky-div h-fit'>
                 <p className="mb-3 font-semibold text-base text-left ">Web Application, UX/UI · 2022</p>
                 <p className="mb-5 text-left text-4xl font-bold">ThaiEggHead.com</p>
                 <p className="mb-5 body_text text-left">ThaiEggHead is a collaborative project aimed at developing a feature-rich social media web application using the MERN stack. The platform enables users to connect, share, and interact with content in a dynamic and engaging online community.</p>

@@ -13,7 +13,7 @@ const About = () => {
           <div className='text-center flex flex-col content-center justify-center'>
 
             <div className='flex flex-col md:flex-row'>
-              <div className='flex-1 px-5 mr-5'>
+              <div className='flex-1 px-5 mr-5 sticky-div h-fit'>
                 <p className="mb-3 font-semibold text-base text-left">Game Development · 2018</p>
                 <p className="mb-5 text-left text-4xl font-bold">Terminal Blackjack Game in C</p>
                 <p className="mb-5 body_text text-left">The Terminal Blackjack Game is a command-line application developed in C that simulates the classic casino card game Blackjack. Players interact with the game through the terminal, making decisions such as hitting, standing, or doubling down to compete against each other.</p>

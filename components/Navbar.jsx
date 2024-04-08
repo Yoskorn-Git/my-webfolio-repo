@@ -6,12 +6,18 @@ import Image from 'next/image';
 
 const Navbar = () => {
     const [toggleDropdown, setToggleDropdown] = useState(false);
-
-
     const [hide, setHide] = useState(true);
+
+    const [isHomePages,setisHomePages] = useState(true);
+
 
     useEffect(() => {
         const options = { passive: false }; // options must match add/remove event
+
+        const currentHref = window.location.href;
+        const bool = currentHref.includes('/projects') ? false : true
+        setisHomePages(bool)
+        
 
         const changeHide = () => {
             if (window.scrollY >= 1000) {
@@ -24,21 +30,10 @@ const Navbar = () => {
         () => document.removeEventListener("scroll", changeHide, options);
     }, []);
 
-    const handleToggleDropdown = () => {
-        setToggleDropdown(!toggleDropdown);
-    };
-
-    const handleScrollToSection = (sectionId) => {
-        document.getElementById(sectionId).scrollIntoView({
-            behavior: 'smooth',
-        });
-        setToggleDropdown(false);
-    };
-
     return (
-        <nav className={hide ? 'navbar-body' : 'navbar-body navbar-sticky '} >
+        <nav className={isHomePages ? (hide ? 'navbar-body' : 'navbar-body navbar-sticky-transition') : 'navbar-body navbar-sticky'} >
             <div className='flex gap-4 items-center'>
-                <Link href='/' className='flex flex-col items-center'>
+                <Link href='/#home' className='flex flex-col items-center'>
                     <Image
                         src={'/assets/icons/icon-glasses.svg'}
                         width={60}
@@ -74,28 +69,29 @@ const Navbar = () => {
 
             <div className='sm:hidden flex relative'>
                 <div className='flex'>
-                    <div className='sm:hidden flex relative'>
 
-                        <div className='flex'>
-                            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" onClick={() => setToggleDropdown(!toggleDropdown)}>
-                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
-                            </svg>
-                            {toggleDropdown && (
-                                <div className='dropdown'>
-                                    <button onClick={() => handleScrollToSection('hero')}>Home</button>
-                                    <button onClick={() => handleScrollToSection('about')}>About Me</button>
-                                    <button onClick={() => handleScrollToSection('projects')}>Project</button>
-                                    <button onClick={() => handleScrollToSection('contact')}>Contact</button>
-                                    <Link href='/CV'>
-                                        <button className="body_text flex justify-center items-center">
-                                            <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                                            <span>Curriculum Vitae</span>
-                                        </button>
-                                    </Link>
-                                </div>
-                            )}
+                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" onClick={() => setToggleDropdown(!toggleDropdown)}>
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                    {toggleDropdown && (
+                        <div id="dropdownDotsHorizontal" className="z-[4] dropdown bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
+                            <ul className="py-2 text-sm text-gray-700">
+                                <li>
+                                    <a href="/#home" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/#projects" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="/#contact" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact</a>
+                                </li>
+                            </ul>
+                            <div className="py-2">
+                                <a href="/CV" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Curriculum Vitae</a>
+                            </div>
                         </div>
-                    </div>
+                    )}
+
                 </div>
             </div>
         </nav>

@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "title": "SilkSight: Silkworm Infection Detection System",
     "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
     "body": "Developed a system using computer vision and Deep Neural Networks to classify infected silkworms, along with a user-friendly web interface",
@@ -8,6 +9,7 @@
     "link": "/projects/silkworm"
   },
   {
+    "id": 1,
     "title": "Thai Food Recommendation Application",
     "subtitle": "Mobile Application, API, Computer Vision, UX/UI",
     "body": "Developed mobile application using React Native to help travelers choose their menu",
@@ -16,6 +18,7 @@
     "link": "/projects/foodrec"
   },
   {
+    "id": 2,
     "title": "ThaiEggHead Social Platform",
     "subtitle": "Web Development, MERN Stack, UX/UI",
     "body": "Developed a Social web application using MERN Stack",
@@ -24,6 +27,7 @@
     "link": "/projects/egghead"
   },
   {
+    "id": 3,
     "title": "A Hybrid Framework Stock Prediction",
     "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
     "body": "Proposed a hybrid prediction framework to forecast stock market closing prices.",
@@ -32,6 +36,7 @@
     "link": "/projects/model"
   },
   {
+    "id": 4,
     "title": "English War Game",
     "subtitle": "Game Development, UX/UI",
     "body": "Developed a multiplayer English learning game",
@@ -40,6 +45,7 @@
     "link": "/projects/englishwar"
   },
   {
+    "id": 5,
     "title": "BlackJack Card Game on Terminal",
     "subtitle": "Game Development",
     "body": "Developed a BlackJack Card Game that plays on System Terminal",

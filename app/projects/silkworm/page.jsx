@@ -10,12 +10,7 @@ const About = () => {
       <div className='max-w-7xl'>
         <h1 className='head_text'>
           <div className='text-center flex flex-col content-center justify-center'>
-            {/* <div className='text-slate-500 text-base font-medium'>
-              About Me
-            </div>
-            <a className='text-5xl mt-6 font-medium mb-4'>
-              {`Hi, I'm Tang Yoskorn`}
-            </a> */}
+
             <div className='flex flex-col md:flex-row'>
               <div className='flex-1 px-5 mr-5'>
                 <p className="mb-3 font-semibold text-base text-left">Mechine Learning, Computer Vision · 2023</p>

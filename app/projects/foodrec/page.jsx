@@ -1,8 +1,6 @@
 'use client'
-import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
 const About = () => {
@@ -12,9 +10,9 @@ const About = () => {
 
       <div className='max-w-7xl'>
         <h1 className='head_text'>
-          <div className='text-center flex flex-col content-center justify-center '>
-            <div className='flex flex-col md:flex-row '>
-              <div className='flex-1 px-5 mr-5 mt-36 '>
+          <div className='text-center flex flex-col content-center justify-center'>
+            <div className='flex flex-col md:flex-row'>
+              <div className='flex-1 px-5 mr-5 sticky-div h-fit'>
                 <p className="mb-3 font-semibold text-base text-left ">Mobile Application, UX/UI · 2021</p>
                 <p className="mb-5 text-left text-4xl font-bold">Thai FoodLens: AI-Powered Culinary Explorer</p>
                 <p className="mb-5 body_text text-left">Thai FoodLens is a mobile application designed to assist foreign travelers in exploring Thai cuisine and making informed dining choices. The app utilizes smartphone cameras for food recognition and menu translation, providing users with detailed information about dishes and personalized food recommendations.</p>
@@ -49,7 +47,7 @@ const About = () => {
                 </Link>
 
               </div>
-              <div className='flex-1 text-left px-5 body_text mt-14 md:mt-0 drop-shadow-xl '>
+              <div className='flex-1 text-left px-5 body_text md:mt-0 drop-shadow-xl'>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <div className="grid gap-4">
                     <div>

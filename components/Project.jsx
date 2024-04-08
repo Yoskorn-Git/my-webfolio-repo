@@ -1,7 +1,5 @@
 import React from 'react'
 import Card from './Card'
-import Link from 'next/link';
-
 import projectData from '../public/data/projects.json';
 
 const Project = () => {
@@ -26,9 +24,8 @@ const Project = () => {
 
                     <div className="grid mt-32 grid-cols-1 md:grid-cols-2 gap-8">
 
-                        {projectData.map((card, index) => (
-                            
-                            <div key={index} className={index % 3 === 0 ? "col-span-1 md:col-span-2" : ""}>
+                        {projectData.map((card) => (
+                            <div key={card.id} className={card.id % 3 === 0 ? "col-span-1 md:col-span-2" : ""}>
                                 <a href={card.link}>
                                     <Card
                                         title={card.title}
@@ -36,7 +33,7 @@ const Project = () => {
                                         body={card.body}
                                         badges={card.badges}
                                         thumbnail={card.thumbnail}
-                                        IsBigCard={index % 3 === 0}
+                                        IsBigCard={card.id % 3 === 0}
                                     />
                                 </a>
                             </div>

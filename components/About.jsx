@@ -27,13 +27,9 @@ const About = () => {
             <a className='text-5xl mt-6 font-medium mb-4'>
               {`Hi, I'm Tang Yoskorn`}
             </a>
-            {/* <div className='line-title mx-auto'></div>
-            <a className='mt-3'>
-              “Ambitious, Skilled, Attentive, and Dedicated Gamer”
-            </a> */}
 
             <div className='mt-32 flex flex-col md:flex-row'>
-              <div className='flex-1 px-5 mr-5'>
+              <div className='flex-1 px-1 mr-5'>
                 <p className="mb-5 head_text text-left">Yoskorn Lertratanakham</p>
                 <p className="mb-5 body_text text-left">I am a computer science graduate with a focus on data and machine learning, as well as a strong enjoyment of web development and game development. </p>
                 <p className="mb-5 body_text text-left">My professional ambition is to excel as a proficient full-stack developer. Check out some of my work in the Projects section.</p>
@@ -45,7 +41,7 @@ const About = () => {
                         </button>
                     </Link>
               </div>
-              <div className='flex-1 text-left px-5 body_text mt-14 md:mt-0'>
+              <div className='flex-1 text-left px-1 body_text mt-14 md:mt-0'>
                 <h2 className="head_text">Capabilities</h2>
                 <h2 className="sub_head_text mb-4">Skill & Tools</h2>
                 <h3 className="sub_head_text mb-2">Software Development</h3>

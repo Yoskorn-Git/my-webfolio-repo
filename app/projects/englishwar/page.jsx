@@ -23,7 +23,7 @@ const About = () => {
             <div className='flex flex-col '>
               <div className='px-5 mr-5 mt-36 max-w-[50vw]'>
                 <p className="mb-3 font-semibold text-base text-left ">Game Development · 2021</p>
-                <p className="mb-5 text-left text-4xl font-bold">English War</p>
+                <p className="mb-5 text-left text-6xl font-bold">English War</p>
                 <p className="mb-5 body_text text-left">English War is an educational multiplayer game designed to help users learn English vocabulary through interactive gameplay. Developed using Unity, this project combines gaming elements with language learning to create an engaging and immersive experience.</p>
 
                 <div className='flex flex-row text-left'>

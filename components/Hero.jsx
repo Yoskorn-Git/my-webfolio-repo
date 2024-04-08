@@ -6,14 +6,14 @@ const Hero = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setVisible(true);
-        }, 100); // Adjust delay as needed
+        }, 50); // Adjust delay as needed
 
         return () => clearTimeout(timeout);
     }, []);
 
     return (
         <><div className='gradient' />
-            <div className={`hero bg-hero ${visible ? 'visible' : ''}`}>
+            <div className={`hero ${visible ? 'visible' : ''}`}>
             
                 <h1 className={`head_text`}>
                     <div className='text-center flex flex-col content-center place-content-center' >
