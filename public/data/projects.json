@@ -10,12 +10,12 @@
   },
   {
     "id": 1,
-    "title": "Thai Food Recommendation Application",
-    "subtitle": "Mobile Application, API, Computer Vision, UX/UI",
-    "body": "Developed mobile application using React Native to help travelers choose their menu",
-    "badges": ["JavaScript", "React Native", "Firebase", "Recommendation System"],
-    "thumbnail": "/assets/images/thumbnail_thaifoodrec.png",
-    "link": "/projects/foodrec"
+    "title": "A Hybrid Framework Stock Prediction",
+    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
+    "body": "Proposed a hybrid prediction framework to forecast stock market closing prices.",
+    "badges": ["Python", "NLP", "Time Series Prediction", "Hybrid Model"],
+    "thumbnail": "/assets/images/thumbnail_hybridmodel.png",
+    "link": "/projects/model"
   },
   {
     "id": 2,
@@ -28,12 +28,12 @@
   },
   {
     "id": 3,
-    "title": "A Hybrid Framework Stock Prediction",
-    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
-    "body": "Proposed a hybrid prediction framework to forecast stock market closing prices.",
-    "badges": ["Python", "NLP", "Time Series Prediction", "Hybrid Model"],
-    "thumbnail": "/assets/images/thumbnail_hybridmodel.png",
-    "link": "/projects/model"
+    "title": "Thai Food Recommendation Application",
+    "subtitle": "Mobile Application, API, Computer Vision, UX/UI",
+    "body": "Developed mobile application using React Native to help travelers choose their menu",
+    "badges": ["JavaScript", "React Native", "Firebase", "Recommendation System"],
+    "thumbnail": "/assets/images/thumbnail_thaifoodrec.png",
+    "link": "/projects/foodrec"
   },
   {
     "id": 4,

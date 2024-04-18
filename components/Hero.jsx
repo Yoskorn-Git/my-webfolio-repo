@@ -12,21 +12,21 @@ const Hero = () => {
     }, []);
 
     return (
-        <><div className='gradient' />
-            <div className={`hero ${visible ? 'visible' : ''}`}>
-            
+        <><div className='' />
+            <div className={`hero -mt-10 ${visible ? 'visible' : ''}`}>
+
                 <h1 className={`head_text`}>
                     <div className='text-center flex flex-col content-center place-content-center' >
                         <div className={`text-6xl md:text-9xl mb-6 `} >
-                            Enthusiastic
+                            Passionate
                         </div>
                         <div className={`text-6xl md:text-9xl  '}`}>
-                            Developer<a className='text-orange-600'>.</a>
+                            Coder<a className='text-orange-600'>.</a>
                         </div>
                     </div>
                 </h1>
-                <p className={`desc text-center`}>
-                    A computer science graduate with a passion for software development and machine learning aims to become a great full-stack developer.
+                <p className={`text-lg font-base mt-11 text-center text-black `}>
+                    A computer science graduate with a passion for coding, learning, and gaming.
                 </p>
             </div>
         </>

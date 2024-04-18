@@ -10,6 +10,11 @@ const Navbar = () => {
 
     const [isHomePages,setisHomePages] = useState(true);
 
+    function scrollToTop() {
+        if (!isBrowser()) return;
+        window.scrollTo({ top: 0 });
+    }
+
 
     useEffect(() => {
         const options = { passive: false }; // options must match add/remove event
@@ -49,7 +54,7 @@ const Navbar = () => {
 
             <div className='hidden sm:flex items-center'>
                 <div className='flex body_text md:gap-5 xl:gap-12 items-center'>
-                    <Link href='/#home'>
+                    <Link href='/#home' >
                         <button className='hover:text-orange-600' >Home</button>
                     </Link>
                     <Link href='/#projects'>

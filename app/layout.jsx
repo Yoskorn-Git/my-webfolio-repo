@@ -16,11 +16,20 @@ const RootLayout = ({ children }) => {
       <body>
         <div className="cursor__dot">
           <AnimatedCursor
-            innerSize={10}
-            outerSize={20}
-            outerAlpha={0.4}
-            innerScale={0.7}
-            outerScale={5}
+            innerSize={6}
+            outerSize={30}
+            innerScale={1}
+            outerScale={2}
+            outerAlpha={0}
+            hasBlendMode={true}
+            showSystemCursor={true}
+            trailingSpeed={4}
+            innerStyle={{
+              backgroundColor: '#ea580c'
+            }}
+            outerStyle={{
+              border: '0.5px solid #ea5a0c65'
+            }}
           />
         </div>
         <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js"></Worker>
