@@ -10,12 +10,6 @@ const Navbar = () => {
 
     const [isHomePages,setisHomePages] = useState(true);
 
-    function scrollToTop() {
-        if (!isBrowser()) return;
-        window.scrollTo({ top: 0 });
-    }
-
-
     useEffect(() => {
         const options = { passive: false }; // options must match add/remove event
 
