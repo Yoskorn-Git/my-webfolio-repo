@@ -17,11 +17,13 @@ const Hero = () => {
 
                 <h1 className={`head_text`}>
                     <div className='text-center flex flex-col content-center place-content-center' >
-                        <div className={`text-6xl md:text-9xl mb-6 `} >
-                            Passionate
+                        <div className={`tracking-tight font-normal text-6xl md:text-[9rem] mb-6 `} >
+                            Pass
+                            <span class="i">i</span>
+                            onate
                         </div>
-                        <div className={`text-6xl md:text-9xl  '}`}>
-                            Coder<a className='text-orange-600'>.</a>
+                        <div className={`tracking-tight font-normal text-6xl md:text-[9rem]`}>
+                            Coder<span className='text-orange-600'>.</span>
                         </div>
                     </div>
                 </h1>

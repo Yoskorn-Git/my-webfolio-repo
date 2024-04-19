@@ -375,6 +375,30 @@ html.dark-mode {
   transform: translateY(0);
 }
 
+.i {  
+  color: #ea580c;
+  position: relative;
+}
+.i:before {
+  content: "ı";
+  position: absolute; 
+  color: black;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Transition for smooth expansion */
+}
+
 
 /* Card Component */
 
