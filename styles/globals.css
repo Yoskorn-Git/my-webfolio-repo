@@ -74,7 +74,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: white;
-  ;
+
 }
 
 .about_section {
@@ -324,7 +324,7 @@ html.dark-mode {
 /* Navbar Component */
 .navbar-sticky-transition {
   background-color: white !important;
-  position: sticky;
+  position: sticky !important;
   width: 100%;
   top: -60px;
   left: 0;
@@ -334,23 +334,27 @@ html.dark-mode {
   transition: transform 500ms ease
 }
 
+.navbar-sticky {
+  background-color: white !important;
+  position: sticky !important;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index: 2;
+}
+
 .navbar-body {
   background-color: transparent;
   z-index: 2;
+  /* position: absolute;
+  top: 0; */
 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
 
-.navbar-sticky {
-  background-color: white !important;
-  position: sticky;
-  width: 100%;
-  top: 0px;
-  left: 0;
-  z-index: 2;
+  /* transition: transform 500ms ease */
 }
 
 .navbar-body {
@@ -360,13 +364,13 @@ html.dark-mode {
 
 
 /* Hero Component */
-.hero_text {
+.hero {
   opacity: 0;
   transform: translateY(-20px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.hero_text.visible {
+.hero.visible {
   opacity: 1;
   transform: translateY(0);
 }

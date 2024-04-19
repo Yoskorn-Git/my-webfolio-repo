@@ -13,7 +13,7 @@ const Hero = () => {
 
     return (
         <><div className='' />
-            <div className={`hero -mt-10 ${visible ? 'visible' : ''}`}>
+            <div className={`hero ${visible ? 'visible' : ''}`}>
 
                 <h1 className={`head_text`}>
                     <div className='text-center flex flex-col content-center place-content-center' >

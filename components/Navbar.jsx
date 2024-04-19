@@ -1,38 +1,44 @@
 'use client'
 
 import { useState, useEffect } from 'react';
+import { usePathname, useSearchParams } from 'next/navigation'
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 const Navbar = () => {
+    const pathname = usePathname()
+
     const [toggleDropdown, setToggleDropdown] = useState(false);
     const [hide, setHide] = useState(true);
 
-    const [isHomePages,setisHomePages] = useState(true);
+    const [isHomePages, setisHomePages] = useState(true);
+
+    const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
+    function scrollToTop() {
+        if (!isBrowser()) return;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
     useEffect(() => {
-        const options = { passive: false }; // options must match add/remove event
-
-        const currentHref = window.location.href;
+        const currentHref = pathname;
         const bool = currentHref.includes('/projects') ? false : true
         setisHomePages(bool)
-        
 
         const changeHide = () => {
             if (window.scrollY >= 1000) {
                 setHide(false)
             } else setHide(true);
         }
-
-        document.addEventListener("scroll", changeHide, options);
-        // remove event on unmount to prevent a memory leak
-        () => document.removeEventListener("scroll", changeHide, options);
-    }, []);
+        document.addEventListener("scroll", changeHide);
+        () => document.removeEventListener("scroll", changeHide);
+    }, [pathname]);
 
     return (
         <nav className={isHomePages ? (hide ? 'navbar-body' : 'navbar-body navbar-sticky-transition') : 'navbar-body navbar-sticky'} >
+            {/* <nav className={'navbar-body'} > */}
             <div className='flex gap-4 items-center'>
-                <Link href='/#home' className='flex flex-col items-center'>
+                <Link href='/' className='flex flex-col items-center'>
                     <Image
                         src={'/assets/icons/icon-glasses.svg'}
                         width={60}
@@ -48,8 +54,8 @@ const Navbar = () => {
 
             <div className='hidden sm:flex items-center'>
                 <div className='flex body_text md:gap-5 xl:gap-12 items-center'>
-                    <Link href='/#home' >
-                        <button className='hover:text-orange-600' >Home</button>
+                    <Link href='/'>
+                        <button onClick={scrollToTop} className='hover:text-orange-600'>Home</button>
                     </Link>
                     <Link href='/#projects'>
                         <button className='hover:text-orange-600'>Project</button>
