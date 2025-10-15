@@ -1,56 +1,56 @@
 [
   {
     "id": 0,
-    "title": "SilkSight: Silkworm Infection Detection System",
-    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
-    "body": "Developed a system using computer vision and Deep Neural Networks to classify infected silkworms, along with a user-friendly web interface",
-    "badges": ["Python", "YOLOv5", "Flask", "Streamlit", "Deep Neural Network"],
+    "title": "Continuous Delivery Control Center",
+    "subtitle": "DevOps, GitOps, Kubernetes",
+    "body": "Created a GitOps platform that standardizes CI/CD across multi-tenant web applications, introducing automated policy checks, environment promotions, and Argo CD-driven rollouts on EKS.",
+    "badges": ["GitHub Actions", "Argo CD", "Terraform", "Kubernetes"],
+    "thumbnail": "/assets/images/thumbnail_ci_cd.svg",
+    "link": "https://github.com/Yoskorn-Git"
+  },
+  {
+    "id": 1,
+    "title": "Cloud Foundations Revamp",
+    "subtitle": "Cloud Infrastructure, Observability",
+    "body": "Refactored Ubuntu-based fleets on AWS and GCP with Terraform modules, self-service networking, and end-to-end observability dashboards powered by Prometheus, Grafana, and Loki.",
+    "badges": ["AWS", "GCP", "Terraform", "Prometheus", "Grafana"],
+    "thumbnail": "/assets/images/thumbnail_cloud.svg",
+    "link": "https://github.com/Yoskorn-Git"
+  },
+  {
+    "id": 2,
+    "title": "Deployment Automation Toolkit",
+    "subtitle": "Automation, Configuration Management",
+    "body": "Delivered Ansible playbooks and containerized release tooling that cut deployment lead time from hours to minutes while enforcing secrets management and security baselines.",
+    "badges": ["Ansible", "Docker", "Ubuntu", "Vault"],
+    "thumbnail": "/assets/images/thumbnail_ansible.svg",
+    "link": "https://github.com/Yoskorn-Git"
+  },
+  {
+    "id": 3,
+    "title": "SilkSight: Infection Detection System",
+    "subtitle": "MLOps, Computer Vision",
+    "body": "Deployed a vision-based classifier with automated model packaging, containerized inference services, and monitoring hooks for proactive drift detection.",
+    "badges": ["Python", "YOLOv5", "Docker", "Streamlit"],
     "thumbnail": "/assets/images/thumbnail_silkworm.png",
     "link": "/projects/silkworm"
   },
   {
-    "id": 1,
-    "title": "A Hybrid Framework Stock Prediction",
-    "subtitle": "Machine Learning, Deep Neuron Network, Computer Vision, Web Development",
-    "body": "Proposed a hybrid prediction framework to forecast stock market closing prices.",
-    "badges": ["Python", "NLP", "Time Series Prediction", "Hybrid Model"],
-    "thumbnail": "/assets/images/thumbnail_hybridmodel.png",
-    "link": "/projects/model"
-  },
-  {
-    "id": 2,
+    "id": 4,
     "title": "ThaiEggHead Social Platform",
-    "subtitle": "Web Development, MERN Stack, UX/UI",
-    "body": "Developed a Social web application using MERN Stack",
-    "badges": ["JavaScript", "ReactJS", "MERN Stack"],
+    "subtitle": "Full-stack, Developer Experience",
+    "body": "Led the MERN stack build with reusable component libraries, containerized deployments, and CI checks that keep the team shipping safely.",
+    "badges": ["React", "Node.js", "MongoDB", "CI/CD"],
     "thumbnail": "/assets/images/thumbnail_egghead.png",
     "link": "/projects/egghead"
   },
   {
-    "id": 3,
-    "title": "Thai Food Recommendation Application",
-    "subtitle": "Mobile Application, API, Computer Vision, UX/UI",
-    "body": "Developed mobile application using React Native to help travelers choose their menu",
-    "badges": ["JavaScript", "React Native", "Firebase", "Recommendation System"],
+    "id": 5,
+    "title": "Thai Food Recommendation App",
+    "subtitle": "Mobile, API Integrations",
+    "body": "Shipped a React Native experience backed by cloud functions and recommendation APIs, demonstrating my foundation in crafting user-facing products.",
+    "badges": ["React Native", "Firebase", "API Design"],
     "thumbnail": "/assets/images/thumbnail_thaifoodrec.png",
     "link": "/projects/foodrec"
-  },
-  {
-    "id": 4,
-    "title": "English War Game",
-    "subtitle": "Game Development, UX/UI",
-    "body": "Developed a multiplayer English learning game",
-    "badges": ["C++", "Unity"],
-    "thumbnail": "/assets/images/thumbnail_englishwar.png",
-    "link": "/projects/englishwar"
-  },
-  {
-    "id": 5,
-    "title": "BlackJack Card Game on Terminal",
-    "subtitle": "Game Development",
-    "body": "Developed a BlackJack Card Game that plays on System Terminal",
-    "badges": ["C","My First Project"],
-    "thumbnail": "/assets/images/thumbnail_blackjack.png",
-    "link": "/projects/blackjack"
   }
 ]

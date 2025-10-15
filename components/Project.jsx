@@ -7,20 +7,17 @@ const Project = () => {
         <>
             <div className='project_section'>
                 <div className='max-w-7xl w-full'>
-                    <h1 className='head_text'>
-                        <div className='mt-20 text-center flex flex-col content-center'>
-                            <div className='text-slate-500 text-base font-medium'>
-                                Recent Project
-                            </div>
-                            <a className='text-5xl mt-10 font-medium'>
-                                Lets take a look at the
-                            </a>
-                            <a className='text-5xl mt-5 font-medium'>
-                                projects I’ve done.
-                            </a>
-
-                        </div>
-                    </h1>
+                    <div className='mt-20 text-center flex flex-col content-center items-center gap-5 px-4'>
+                        <span className='text-slate-500 text-base font-medium uppercase tracking-[0.4em]'>
+                            Selected Work
+                        </span>
+                        <p className='text-5xl md:text-6xl font-semibold'>
+                            Building the pipelines and products teams rely on.
+                        </p>
+                        <p className='text-base md:text-lg text-slate-600 max-w-3xl'>
+                            A mix of DevOps initiatives and software builds that show how I connect infrastructure automation with user-facing impact.
+                        </p>
+                    </div>
 
                     <div className="grid mt-32 grid-cols-1 md:grid-cols-2 gap-8">
 

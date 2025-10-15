@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="cloudSky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <radialGradient id="cloudCore" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#dbeafe" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cloudSky)"/>
+  <g opacity="0.65">
+    <ellipse cx="200" cy="180" rx="180" ry="120" fill="url(#cloudCore)"/>
+    <ellipse cx="640" cy="160" rx="160" ry="110" fill="url(#cloudCore)"/>
+    <ellipse cx="260" cy="420" rx="190" ry="130" fill="url(#cloudCore)"/>
+    <ellipse cx="600" cy="430" rx="220" ry="140" fill="url(#cloudCore)"/>
+  </g>
+  <g fill="none" stroke="#1d4ed8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.3">
+    <path d="M160 300h150l50-70 60 110 40-60h180M220 360h120l20 40 80-120 60 80 120-180"/>
+  </g>
+  <g fill="#1e3a8a" opacity="0.75">
+    <rect x="170" y="340" width="120" height="24" rx="12"/>
+    <rect x="490" y="260" width="140" height="24" rx="12"/>
+    <rect x="360" y="440" width="220" height="24" rx="12"/>
+  </g>
+</svg>

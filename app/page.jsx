@@ -13,7 +13,7 @@ const home = () => {
 
   return (
     <>
-    <title>Yoskorn | Software Developer</title>
+    <title>Yoskorn | DevOps Engineer & Software Developer</title>
       <NavbarVertical />
       
       <ScrollSpy>
