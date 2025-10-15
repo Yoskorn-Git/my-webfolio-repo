@@ -1,13 +1,13 @@
 <h2 align="center">
   My Portfolio Website - v1.0<br/>
-  <a href="https://yoskorn.site" target="_blank">yoskorn.site</a>
+  <a href="https://yoskorn.dev" target="_blank">yoskorn.dev</a>
 </h2>
 
 ![image](https://github.com/Yoskorn-Git/my-webfolio-repo/assets/57613606/c6415130-4c4e-4033-9318-da8a5d7543b1)
 
 ## Built With
 
-My personal portfolio <a href="https://yoskorn.site" target="_blank">yoskorn.site</a> My portfolio showcases several of my GitHub projects along with my resume and technical skill set.<br/>
+My personal portfolio <a href="https://yoskorn.dev" target="_blank">yoskorn.site</a> My portfolio showcases several of my GitHub projects along with my resume and technical skill set.<br/>
 
 This project was built using Next.js
 
